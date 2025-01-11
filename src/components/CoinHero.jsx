@@ -22,7 +22,11 @@ const CoinHero = () => {
                 <p className="text-2xl font-bold">
                   ${data.bitcoin.usd.toLocaleString("en-US")}
                 </p>
-                <p className="bg-green-50 text-green-600 p-1">
+                <p className={`p-1 rounded-md ${
+                    data.bitcoin.usd_24h_change > 0
+                    ? 'bg-green-50 text-green-600'
+                    : 'bg-red-50 text-red-600'
+                }`}>
                     {data.bitcoin.usd_24h_change.toFixed(2)}%
                 </p>
                 <p className="text-gray-500">(24H)</p>
