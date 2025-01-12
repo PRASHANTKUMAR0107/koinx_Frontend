@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className=" flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="https://www.koinx.com/_next/static/media/Logo.99e6a1dc.svg"
@@ -54,7 +54,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/"
-                className="py-2 px-3 rounded"
+                className="py-2 px-3 rounded hover:bg-gray-200 duration-300"
               >
                 Crypto Taxes
               </Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/"
-                className="py-2 px-3 rounded"
+                className="py-2 px-3 rounded hover:bg-gray-200 duration-300"
               >
                 Free Tools
               </Link>
@@ -70,7 +70,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/"
-                className="py-2 px-3 rounded"
+                className="py-2 px-3 rounded hover:bg-gray-200 duration-300"
               >
                 Resource Center
               </Link>
@@ -78,7 +78,7 @@ const Navbar = () => {
             <li className="py-3 md:p-0">
               <Link
                 to="/"
-                className="py-2 px-5 rounded bg-blue-600 text-white"
+                className="py-2 px-5 rounded bg-blue-600 text-white hover:bg-blue-900 duration-300"
               >
                 Get Started
               </Link>

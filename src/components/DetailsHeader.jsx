@@ -7,9 +7,9 @@ const DetailsHeader = ({ tabs, activeTab, handleTabClick }) => {
         <div
           key={tab}
           onClick={() => handleTabClick(tab)}
-          className={`w-full text-center cursor-pointer pb-2 ${
+          className={`w-full text-center hover:bg-gray-400 duration-300 rounded-full cursor-pointer pb-2 ${
             activeTab === tab
-              ? "text-blue-500 border-b-2 border-blue-500 font-semibold"
+              ? "text-blue-500 border-b-2 border-blue-500 font-semibold rounded-none"
               : "text-gray-600"
           }`}
         >

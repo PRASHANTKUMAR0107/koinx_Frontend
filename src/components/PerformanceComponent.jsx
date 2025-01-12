@@ -19,7 +19,7 @@ const PerformanceComponent = ({ performanceData, tabs, sectionRefs }) => {
           </div>
           <div className="relative h-2 w-[70%] bg-gray-200 rounded-full">
             <div
-              className="absolute top-0 left-0 h-full bg-gradient-to-r from-red-500 via-yellow-500 to-green-500"
+              className="absolute top-0 left-0 h-full bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 rounded-full"
               style={{ width: "100%" }}
             ></div>
         <div

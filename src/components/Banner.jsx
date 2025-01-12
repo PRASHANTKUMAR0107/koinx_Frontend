@@ -154,7 +154,7 @@ const Banner = () => {
 </defs>
 </svg>
 
-<button className="flex items-center gap-2 bg-gray-50 font-semibold text-black px-5 p-1 rounded mt-2">
+<button className="flex animate-bounce items-center gap-2 bg-gray-50 font-semibold text-black px-5 p-1 rounded mt-2">
     Get Started For FREE <FaArrowRightLong />
 </button> 
 
